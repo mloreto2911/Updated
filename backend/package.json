@@ -4,8 +4,9 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "npx nodemon server.js",
-    "build": "echo 'Build step'"
+    "dev": "nodemon server.js",
+    "build": "npm i"
+    
   },
   "author": "\"Mikee\"",
   "license": "ISC",
